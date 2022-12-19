@@ -1,10 +1,10 @@
 package classandassociation;
 import java.util.*;
 
-public class test {
+public class Test {
 	public static void main(String args[]){
 		String a;
-		employee e=new employee ("arnold","onana",2002);
+		Employee e=new Employee ("arnold","onana",2002);
 		a=e.getLastName();
 		System.out.println(a);
 		ObjetNumerique m=new ObjetNumerique("nike","b");
