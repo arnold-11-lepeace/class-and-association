@@ -10,12 +10,12 @@ import java.util.ArrayList;
 /**
  * class of employee
  */
-public class employee {
+public class Employee {
 	private String firstName;
 	private String lastName;
 	private int hireYear;
 	private ArrayList<ObjetNumerique> listObjetNumerique=new ArrayList<>();
-	public employee(String aFirstName,String aLastName,int aHireYear ) {
+	public Employee(String aFirstName,String aLastName,int aHireYear ) {
 		this.listObjetNumerique=new ArrayList<>();
 		this.firstName=aFirstName;
 		this.lastName=aLastName;
